@@ -3,15 +3,13 @@
 }
 .container {
   margin: 0 auto;
-
   max-width: 1410px;
   padding: 0 20px;
-  display: content-box;
+  box-sizing: content-box;
 }
 .box {
-  margin: 0 auto;
-
-  max-width: 1171px;
+  margin: 0 auto; 
   padding: 0 20px;
-  display: content-box;
+  max-width: 1170px;
+  box-sizing: content-box;
 }

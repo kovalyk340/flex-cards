@@ -20,22 +20,27 @@
 
     &__row {
         display: flex;
-        margin: 0 -29px;
+        margin: 0 -15px;
     }
 
     &__column {
         flex: 0 1 33.3%;
-        padding: 0 30px;
+        padding: 0 15px;
     }
 
     &__item {
-        padding: 0px 30px 50px 30px;
         background-color: #fff;
         transition: all 0.3s ease 0s;
         &:hover {
-            background: peachpuff;
-            box-shadow: 0px 0px 15px 1px #000000;
+            box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
         }
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__body {
+        padding: 25px 30px 50px 30px;
         height: 100%;
         display: flex;
         flex-direction: column;
@@ -45,12 +50,11 @@
         text-align: center;
         img {
             max-width: 100%;
-            margin-bottom: 25px;
         }
     }
 
     &__label {
-        font-family: "Gilroy";
+        font-family: "Gilroy", sans-serif;
         font-weight: bold;
         font-size: 24px;
         line-height: 117%;
@@ -59,13 +63,14 @@
     }
 
     &__text {
-        font-family: "Gilroy";
-        font-weight: 400;
+        font-family: "Gilroy", sans-serif;
         font-size: 15px;
         line-height: 150%;
         text-align: center;
         color: #aaaaaa;
         margin-bottom: 39px;
+
+        flex: 1 1 auto;
     }
 
     &__wrap-more {
@@ -73,7 +78,7 @@
     }
     &__more {
         padding: 15px 36px 15px 46px;
-        font-family: "Gilroy";
+        font-family: "Gilroy", sans-serif;
         font-weight: bold;
         font-size: 13px;
         line-height: 150%;
@@ -87,7 +92,8 @@
         border-radius: 50px;
         transition: all 0.3s ease 0s;
         &:hover {
-            color: #cff2a2;
+            background-color: lightgreen;
+            color: #666;
         }
     }
 }
