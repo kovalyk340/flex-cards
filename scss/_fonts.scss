@@ -1,0 +1,15 @@
+@mixin font($fontFamily, $fileName, $fontWeight, $fontStyle) {
+    @font-face {
+        font-display: swap;
+        font-family: $fontFamily;
+        src: url("./../fonts/#{$fileName}.woff2") format("woff2"), url("./../fonts/#{$fileName}.woff") format("woff");
+        font-weight: #{$fontWeight};
+        font-style: #{$fontStyle};
+    }
+}
+// @include font("Grenze", "grenze-200", "200", "normal");
+@include font("Gilroy", "Gilroy-Bold", "700", "normal");
+@include font("Gilroy", "Gilroy-Regular", "400", "normal");
+@include font("Noto Serif", "NotoSerif-Bold", "700", "normal");
+@include font("Open Sans", "OpenSans-Bold", "700", "normal");
+@include font("Product Sans", "ProductSans-Regular", "400", "normal");

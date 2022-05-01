@@ -1,0 +1,19 @@
+// Шрифты здесь!
+
+@import "_nullstyle";
+
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+@import "_blocks";
+
+@import "_page";
+
+// Секции
+@import "_start";
+@import "_fonts";
+@import "_choose";
+// @import "_section-name";
+// @import "_section-name";
+// @import "_section-name";
