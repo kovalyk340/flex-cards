@@ -9,10 +9,12 @@
     }
 
     &__info {
+        max-width: 682px;
+        margin: 0 auto;
+        text-align: center;
         font-family: "Gilroy", sans-serif;
         font-size: 16px;
         line-height: 150%;
-        text-align: center;
 
         color: #666666;
         margin-bottom: 55px;
